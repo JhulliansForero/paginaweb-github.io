@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(29, 31, 128, 0.897);
+    color: rgb(246, 236, 255);
+    font-family: Arial, sans-serif;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAACUCAMAAABV5TcGAAAAA1BMVEUBAQHIpFY6AAAAPklEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIcBnKwAAXyxvCsAAAAASUVORK5CYII=);
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    margin: 100px;
+}
+.contenedor {
+    padding: 20px;
+    text-align: center;
+}
+.titulo {
+    background-color: rgba(38, 38, 41, 0.26);
+    color: rgb(253, 253, 253);
+    padding: 10px 0;
+}
+div {
+    margin: 20px auto;
+    text-align: center;
+    background-color: rgba(38, 38, 41, 0.26);
+    color: black;
+}
+.Comprar {
+    background-color: rgb(44, 163, 33);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.Comprar:hover {
+    background-color: rgb(19, 126, 10);
+}
+.precios {
+    margin: 20px;
+    background-color: rgba(129, 55, 55, 0.74);
+    color: black;
+    padding: 10px;
+}
+.juegos1, .juegos2, .juegos3, .juegos4, .juegos5 {
+    background-color: rgb(46, 48, 61);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+.cubo {
+    margin: 20px;
+    background-color: rgb(85, 85, 88);
+    color: rgb(238, 238, 238);
+    padding: 15px;
+    border-radius: 10px;
+}
+.requisitos ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 10px;
+}
+.bajos, .altos {
+    margin: 10px 0;
+    background-color: rgb(29, 29, 31);
+    color: rgb(252, 252, 252);
+    padding: 10px;
+    border-radius: 10px;
+}
+.barrasearch{
+    background-color: rgb(48, 49, 53);
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+nav li{
+    display: inline-flex;
+    background-color: rgb(224, 222, 222);
+    color: rgb(134, 134, 134);
+}
+nav a{
+    text-decoration: none;
+    color: rgb(47, 47, 48);
+    padding:10px;
+    width: 150px;
+    background-color: rgb(23, 24, 32);
+color: rgb(250, 243, 243);
+text-align: center;
+}
+.barracategorias{
+    background-color: rgb(114, 98, 185);
+    
+    }
+   
+.input {
+    color: white;
+    border: 2px solid #8707ff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    max-width: 190px;
+  }
+  
+  .input:active {
+    box-shadow: 2px 2px 15px #8707ff inset;
+  }
+  /* From Uiverse.io by csemszepp */ 
+.contenedor {
+    width: 100%;
+    height: 100%;
+    --s: 200px; /* control the size */
+    --c1: #1d1d1d;
+    --c2: #4e4f51;
+    --c3: #3c3c3c;
+  
+    background: repeating-conic-gradient(
+          from 30deg,
+          #0000 0 120deg,
+          var(--c3) 0 180deg
+        )
+        calc(0.5 * var(--s)) calc(0.5 * var(--s) * 0.577),
+      repeating-conic-gradient(
+        from 30deg,
+        var(--c1) 0 60deg,
+        var(--c2) 0 120deg,
+        var(--c3) 0 180deg
+      );
+    background-size: var(--s) calc(var(--s) * 0.577);
+  }
+  
+  
+  
